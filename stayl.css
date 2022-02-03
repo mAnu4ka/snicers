@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy';
+}
+
+.greed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(348px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 650.9px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.logo{
+    width:62.379px;  
+    height:54.019px; 
+}
+
+.greed-top {
+    margin-bottom: 53px;
+}
+
+.default-width {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.huter {
+    max-width: 1737px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 45px;
+    height: 54px;
+}
+
+.scr-main {
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-text {
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: space-between;
+    width: 685px;
+    align-items: center;
+}
+
+.menu-raight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accaunt {
+    width: 203px;
+    height: 23px;
+    display: flex;
+}
+
+.main {
+    margin-top: 376px;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 76px;
+    /* position:absolute;
+    top: 376px;
+    bottom: 496px;
+    height: 275px;  */
+    color: white;
+}
+
+.main-link {
+    width: 271px;
+    height: 59px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #154796;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 42px;
+    font-size: 18px;
+}
+
+.link {
+    width: 277px;
+    height: 59px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #154796;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.whotch {
+    color: white;
+    margin-left: 10px;
+}
+
+.number {
+    color: white;
+    margin-left: 11px;
+    font-weight: 500;
+    margin-right: 39px;
+    white-space: nowrap;
+}
+
+.offic {
+    color: white;
+    opacity: 0.6;
+}
+
+.plat-main {
+    display: flex;
+    margin-top: 41px;
+    align-items: center;
+}
+
+.lain {
+    background-color: white;
+    width: 4px;
+    height: 84px;
+    position: relative;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 176px;
+}
+
+.more-details {
+    color: white;
+    margin-left: 14px;
+}
+
+.lein-gray {
+    position: absolute;
+    background-color: #6D6D6D;
+    height: 20%;
+    width: 4px;
+    top: 100;
+}
+
+.section-2 {
+    height: 100vh;
+}
+.red-buy{
+    position:absolute;
+    color: red;
+}
+
+.choos {
+    opacity: 0.6;
+    margin-top: 195px;
+    text-transform: uppercase;
+}
+
+.product {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.run {
+    height: 270px;
+    margin-bottom: 24px;
+}
+
+.span-black {
+    color: black;
+}
+
+.span-opasiti {
+    color: #7E7D8D;
+    margin-right: 16px;
+}
+
+.item-main {
+    width: 284px;
+    height: 169px;
+    margin-bottom: 27px;
+}
+
+.buy {
+    color: #7E7D8D;
+    background-color: #EEF4FB;
+    width: 215px;
+    height: 41px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buy-span {
+    margin-right: 16px;
+}
+
+.item {
+    /* width: 464.15px; */
+    /* height: 650.9px; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgb(192, 192, 192);
+    border-radius: 12px;
+}
+
+.Vivamus-mauris {
+    margin-bottom: 6px;
+}
+
+.item-hiter {
+    margin-bottom: 12px;
+}
+
+.item-boot {
+    padding: 0px 39px;
+}
+
+.scren-3 {
+    height: 100vh;
+}
+
+.welding {
+    width: 100%;
+}
+
+.greed-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(348px, 1fr));
+    grid-gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 136px;
+}
+
+.why-we {
+    height: 460px;
+}
+
+.company {
+    margin-top: 48.6px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 53.4px;
+}
+
+.no-reclam {
+    color: #7E7D8D;
+    width: 612px;
+}
+
+.active {
+    margin-top: 46px;
+}
+
+input {
+    margin-bottom: 21.4px;
+    width: 100%;
+    height: 32.59px;
+    border: none;
+    border-bottom: 1px solid #7E7D8D;
+}
+
+.send {
+    width: 187px;
+    height: 62px;
+    margin-right: 33px;
+    border: none;
+}
+
+.scren-4 {
+    height: 100vh;
+}
+
+.send-div {
+    display: flex;
+    margin-top: 92.4px;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.name {
+    font-weight: 20px;
+    margin-bottom: 9px;
+}
+
+.description-div {
+    display: flex;
+    flex-direction: column;
+    height: 477px;
+}
+
+.name-img {
+    margin-bottom: 15px;
+}
+
+.greed-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(294px, 1fr));
+    grid-gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 136px;
+}
+
+.scren-5 {
+    height: 100vh;
+}
+
+.map {
+    width: 100%;
+}
+.buy-at-mobail{
+    display: none;
+
+}
+.mobile{
+    display: none;
+}
+.activiti{
+    background-color: #154796;
+    color: white;
+}
+.top{
+    margin-bottom: 27px;
+}
+.item-boot h1{
+    margin-bottom: 7px;
+}
+.choos-2{
+    margin-top: 137px;
+}
+.description{
+    width: 294px;
+    height: 74px;
+} 
+.link-css{
+    align-items: center;
+    display: flex;
+}

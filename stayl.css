@@ -48,7 +48,7 @@ body {
 
 .scr-main {
     height: 100vh;
-    background-image: url(./img/background.png);
+    background-image: url(./background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
